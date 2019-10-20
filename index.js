@@ -1,9 +1,9 @@
 var mysql = require('mysql')
 var con = mysql.createConnection({
     host: "localhost",
-    user: "root",
-    password: "__toor__!",
-    database: "nodedb"
+    user: "Your username(if you don't know : default is root)",
+    password: "your MySql password",
+    database: "your db name"
 });
 
 con.connect(function(err) {
@@ -14,7 +14,7 @@ con.connect(function(err) {
     con.query("CREATE DATABASE nodedb", function(err, result) {
         if (err) throw err;
         console.log("Database Created successfully!");
-        
+
     })
-    
+
 } )
