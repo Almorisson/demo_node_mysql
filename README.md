@@ -1,2 +1,2 @@
 # demo_node_mysql
-A simple to demo to how interconnect a MySQL DB in NodeJS
+A simple demo to understand how to interconnect a MySQL DB with NodeJS Backend API.
